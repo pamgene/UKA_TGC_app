@@ -2,7 +2,7 @@
   "kind": "Workflow",
   "id": "e25dc686b5c3b9823c488a47e2698d7b",
   "isDeleted": false,
-  "rev": "30-400f98411d13aa46768910f765a022b6",
+  "rev": "32-85ae59e66de9e927b22c1cd866880330",
   "description": "Converts a list of peptides into a list of kinases.",
   "name": "UKA_TT_app",
   "createdBy": "dschuller",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-11-14T10:37:15.016289Z"
+    "value": "2023-11-14T11:25:05.455325Z"
   },
   "urls": [
     {
@@ -96,19 +96,19 @@
     },
     {
       "kind": "Link",
-      "id": "e7c84ae0-b162-4369-8a39-4070bb88bd10",
-      "inputId": "a13ba99f-4697-4e80-9cc1-16de6f1f35ed-i-0",
-      "outputId": "94aa0e70-de9b-4b31-8311-25e855e9effb-o-0"
-    },
-    {
-      "kind": "Link",
       "id": "1a756ed7-4534-4120-9a64-995bdcfac96b",
       "inputId": "064f619a-69e1-4b54-a01b-c431c7d2387c-i-0",
       "outputId": "b8244793-8f56-4b25-81d2-d4b768fe8fd8-o-0"
     },
     {
       "kind": "Link",
-      "id": "82484c71-4520-40cf-9b2d-0099b32ca8ba",
+      "id": "a977c090-c31c-4413-a472-5a7be06e8aaa",
+      "inputId": "a13ba99f-4697-4e80-9cc1-16de6f1f35ed-i-0",
+      "outputId": "94aa0e70-de9b-4b31-8311-25e855e9effb-o-0"
+    },
+    {
+      "kind": "Link",
+      "id": "7de584d5-588a-48cf-8a3f-2576384724f4",
       "inputId": "94aa0e70-de9b-4b31-8311-25e855e9effb-i-0",
       "outputId": "064f619a-69e1-4b54-a01b-c431c7d2387c-o-0"
     }
@@ -546,7 +546,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "8dd93db7-b620-446e-9a9f-44ea7dac552b"
+        "id": "a7357470-e074-4e03-9546-e5a1f889d144"
       },
       "parentDataStepId": ""
     },
@@ -880,7 +880,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "f6b2322c-677d-4329-b70b-dd5f437ef570"
+        "id": "e4cca74d-4017-42f6-96da-ca8b5323bcf9"
       },
       "parentDataStepId": ""
     },
@@ -1130,7 +1130,7 @@
                   }
                 }
               ],
-              "name": "Group !=Control"
+              "name": "Group != Control"
             }
           ]
         },
@@ -1214,7 +1214,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "7c5389c8-d42c-4f49-98a5-b29f3a556014"
+        "id": "84553fd1-9f8e-4c26-a7b6-a104588db0db"
       },
       "parentDataStepId": ""
     },
@@ -1709,7 +1709,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "5e6d4c7a-8c7c-48a0-8d86-e15307911b56"
+        "id": "349f752d-bd67-4bc0-9875-26498b13f9ef"
       },
       "parentDataStepId": ""
     },
@@ -2161,7 +2161,7 @@
   ],
   "offset": {
     "kind": "Point",
-    "x": 145.0,
-    "y": 229.0
+    "x": 119.0,
+    "y": 273.0
   }
 }
