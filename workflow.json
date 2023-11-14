@@ -1152,12 +1152,12 @@
             {
               "kind": "NamedFilter",
               "logical": "and",
-              "not": false,
+              "not": true,
               "filterExprs": [
                 {
                   "kind": "FilterExpr",
                   "filterOp": "equals",
-                  "stringValue": "Test",
+                  "stringValue": "Control",
                   "factor": {
                     "kind": "Factor",
                     "name": "Group",
