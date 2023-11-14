@@ -2,7 +2,7 @@
   "kind": "Workflow",
   "id": "e25dc686b5c3b9823c488a47e2698d7b",
   "isDeleted": false,
-  "rev": "32-85ae59e66de9e927b22c1cd866880330",
+  "rev": "43-02dd4f9c3c8f9b7fe26879a74f47f524",
   "description": "Converts a list of peptides into a list of kinases.",
   "name": "UKA_TT_app",
   "createdBy": "dschuller",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-11-14T11:25:05.455325Z"
+    "value": "2023-11-14T13:02:36.913855Z"
   },
   "urls": [
     {
@@ -108,7 +108,7 @@
     },
     {
       "kind": "Link",
-      "id": "7de584d5-588a-48cf-8a3f-2576384724f4",
+      "id": "929bd220-79b6-4f92-bf2d-fdbb29f97851",
       "inputId": "94aa0e70-de9b-4b31-8311-25e855e9effb-i-0",
       "outputId": "064f619a-69e1-4b54-a01b-c431c7d2387c-o-0"
     }
@@ -546,7 +546,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "a7357470-e074-4e03-9546-e5a1f889d144"
+        "id": "f21066a6-8579-429d-9daa-8427497bc4e2"
       },
       "parentDataStepId": ""
     },
@@ -796,7 +796,7 @@
                   }
                 }
               ],
-              "name": "Group = Control"
+              "name": "Group"
             }
           ]
         },
@@ -880,7 +880,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "e4cca74d-4017-42f6-96da-ca8b5323bcf9"
+        "id": "749ff3f5-1733-4e7e-9056-e9dbc95d3ced"
       },
       "parentDataStepId": ""
     },
@@ -1214,7 +1214,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "84553fd1-9f8e-4c26-a7b6-a104588db0db"
+        "id": "1fbece1d-d5fd-41bb-91f0-0bf64bcde3f4"
       },
       "parentDataStepId": ""
     },
@@ -1709,7 +1709,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "349f752d-bd67-4bc0-9875-26498b13f9ef"
+        "id": "f3880da9-1bca-49a0-b13e-d588f1530326"
       },
       "parentDataStepId": ""
     },
@@ -1906,7 +1906,7 @@
           },
           {
             "kind": "MappingFilter",
-            "name": "Group !=Control",
+            "name": "Group != Control",
             "description": "",
             "namedFilter": {
               "kind": "NamedFilter",
@@ -1924,9 +1924,9 @@
                   }
                 }
               ],
-              "name": "Group !=Control"
+              "name": "Group != Control"
             },
-            "isRequired": false
+            "isRequired": true
           }
         ],
         "steps": [],
@@ -2039,7 +2039,7 @@
           },
           {
             "kind": "MappingFilter",
-            "name": "Group !=Control",
+            "name": "Group != Control",
             "description": "",
             "namedFilter": {
               "kind": "NamedFilter",
@@ -2057,9 +2057,9 @@
                   }
                 }
               ],
-              "name": "Group !=Control"
+              "name": "Group != Control"
             },
-            "isRequired": false
+            "isRequired": true
           }
         ]
       }
@@ -2161,7 +2161,7 @@
   ],
   "offset": {
     "kind": "Point",
-    "x": 119.0,
-    "y": 273.0
+    "x": 51.0,
+    "y": 302.0
   }
 }
