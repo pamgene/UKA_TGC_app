@@ -2,7 +2,7 @@
   "kind": "Workflow",
   "id": "e25dc686b5c3b9823c488a47e2698d7b",
   "isDeleted": false,
-  "rev": "43-02dd4f9c3c8f9b7fe26879a74f47f524",
+  "rev": "44-eaad8ef9cd23786e16733363c11432ce",
   "description": "Converts a list of peptides into a list of kinases.",
   "name": "UKA_TT_app",
   "createdBy": "dschuller",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-11-14T13:02:36.913855Z"
+    "value": "2023-11-14T13:10:15.012435Z"
   },
   "urls": [
     {
@@ -86,12 +86,6 @@
       "kind": "Link",
       "id": "dac5aa6c-9111-473e-8551-240a1231b089",
       "inputId": "5d3608b1-96de-40b2-ab8f-e3f8ce89d8ad-i-0",
-      "outputId": "6514d203-6472-4f6c-8a59-bc5d826e95d6-o-0"
-    },
-    {
-      "kind": "Link",
-      "id": "940e3b40-d5bb-4b50-8196-584bde4afb7d",
-      "inputId": "4c4d6aa0-2bb3-4830-b00e-f5129acdd72c-i-0",
       "outputId": "6514d203-6472-4f6c-8a59-bc5d826e95d6-o-0"
     },
     {
@@ -1736,8 +1730,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 763.140541687012,
-          "y": 478.5
+          "x": 628.140541687012,
+          "y": 568.5
         }
       },
       "state": {
@@ -2065,53 +2059,6 @@
       }
     },
     {
-      "kind": "OutStep",
-      "id": "4c4d6aa0-2bb3-4830-b00e-f5129acdd72c",
-      "groupId": "",
-      "name": "Output",
-      "inputs": [
-        {
-          "kind": "InputPort",
-          "id": "4c4d6aa0-2bb3-4830-b00e-f5129acdd72c-i-0",
-          "linkType": "any",
-          "name": "from"
-        }
-      ],
-      "outputs": [
-        {
-          "kind": "OutputPort",
-          "id": "4c4d6aa0-2bb3-4830-b00e-f5129acdd72c-o-0",
-          "linkType": "any",
-          "name": "to"
-        }
-      ],
-      "rectangle": {
-        "kind": "Rectangle",
-        "extent": {
-          "kind": "Point",
-          "x": 88.99000000000001,
-          "y": 55.0
-        },
-        "topLeft": {
-          "kind": "Point",
-          "x": 624.140541687012,
-          "y": 566.5
-        }
-      },
-      "state": {
-        "kind": "StepState",
-        "taskId": "",
-        "taskState": {
-          "kind": "InitState"
-        }
-      },
-      "groupPortPosition": {
-        "kind": "Point",
-        "x": 0.0,
-        "y": 0.0
-      }
-    },
-    {
       "kind": "InStep",
       "id": "064f619a-69e1-4b54-a01b-c431c7d2387c",
       "groupId": "",
@@ -2161,7 +2108,7 @@
   ],
   "offset": {
     "kind": "Point",
-    "x": 51.0,
-    "y": 302.0
+    "x": 9.0,
+    "y": -135.0
   }
 }
