@@ -2,7 +2,7 @@
   "kind": "Workflow",
   "id": "e25dc686b5c3b9823c488a47e2698d7b",
   "isDeleted": false,
-  "rev": "26-e9829c7eca2c6c5eca6a02e884b80167",
+  "rev": "30-400f98411d13aa46768910f765a022b6",
   "description": "Converts a list of peptides into a list of kinases.",
   "name": "UKA_TT_app",
   "createdBy": "dschuller",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-11-14T09:54:33.250426Z"
+    "value": "2023-11-14T10:37:15.016289Z"
   },
   "urls": [
     {
@@ -50,7 +50,7 @@
   ],
   "url": {
     "kind": "Url",
-    "uri": "https://github.com/pamgene/UKA_TT_app"
+    "uri": "https://github.com/pamgene/UKA_app"
   },
   "version": "0.2.5",
   "authors": [],
@@ -90,65 +90,30 @@
     },
     {
       "kind": "Link",
-      "id": "7a36fea9-a246-449a-b3f1-40baa56a3aa4",
+      "id": "940e3b40-d5bb-4b50-8196-584bde4afb7d",
+      "inputId": "4c4d6aa0-2bb3-4830-b00e-f5129acdd72c-i-0",
+      "outputId": "6514d203-6472-4f6c-8a59-bc5d826e95d6-o-0"
+    },
+    {
+      "kind": "Link",
+      "id": "e7c84ae0-b162-4369-8a39-4070bb88bd10",
       "inputId": "a13ba99f-4697-4e80-9cc1-16de6f1f35ed-i-0",
       "outputId": "94aa0e70-de9b-4b31-8311-25e855e9effb-o-0"
     },
     {
       "kind": "Link",
-      "id": "c6042b2b-30f1-49c5-ad50-3ffd2d79a383",
+      "id": "1a756ed7-4534-4120-9a64-995bdcfac96b",
+      "inputId": "064f619a-69e1-4b54-a01b-c431c7d2387c-i-0",
+      "outputId": "b8244793-8f56-4b25-81d2-d4b768fe8fd8-o-0"
+    },
+    {
+      "kind": "Link",
+      "id": "82484c71-4520-40cf-9b2d-0099b32ca8ba",
       "inputId": "94aa0e70-de9b-4b31-8311-25e855e9effb-i-0",
-      "outputId": "0d0969f7-d27d-4bf0-a433-69471e97dd4e-o-0"
+      "outputId": "064f619a-69e1-4b54-a01b-c431c7d2387c-o-0"
     }
   ],
   "steps": [
-    {
-      "kind": "InStep",
-      "id": "0d0969f7-d27d-4bf0-a433-69471e97dd4e",
-      "groupId": "",
-      "name": "Input",
-      "inputs": [
-        {
-          "kind": "InputPort",
-          "id": "0d0969f7-d27d-4bf0-a433-69471e97dd4e-i-0",
-          "linkType": "any",
-          "name": "in"
-        }
-      ],
-      "outputs": [
-        {
-          "kind": "OutputPort",
-          "id": "0d0969f7-d27d-4bf0-a433-69471e97dd4e-o-0",
-          "linkType": "any",
-          "name": "out"
-        }
-      ],
-      "rectangle": {
-        "kind": "Rectangle",
-        "extent": {
-          "kind": "Point",
-          "x": 88.99000000000001,
-          "y": 55.0
-        },
-        "topLeft": {
-          "kind": "Point",
-          "x": 628.5050000000001,
-          "y": -54.5
-        }
-      },
-      "state": {
-        "kind": "StepState",
-        "taskId": "",
-        "taskState": {
-          "kind": "InitState"
-        }
-      },
-      "groupPortPosition": {
-        "kind": "Point",
-        "x": 0.0,
-        "y": 0.0
-      }
-    },
     {
       "kind": "DataStep",
       "id": "2ca378e5-1717-4952-ad2d-caec64d253c8",
@@ -581,7 +546,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "a3709fbd-ab50-4a19-b80a-ce3080fbca1b"
+        "id": "8dd93db7-b620-446e-9a9f-44ea7dac552b"
       },
       "parentDataStepId": ""
     },
@@ -915,7 +880,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "972413ef-e7e6-407d-a06e-e9ace5989612"
+        "id": "f6b2322c-677d-4329-b70b-dd5f437ef570"
       },
       "parentDataStepId": ""
     },
@@ -1152,11 +1117,11 @@
             {
               "kind": "NamedFilter",
               "logical": "and",
-              "not": true,
+              "not": false,
               "filterExprs": [
                 {
                   "kind": "FilterExpr",
-                  "filterOp": "equals",
+                  "filterOp": "notequals",
                   "stringValue": "Control",
                   "factor": {
                     "kind": "Factor",
@@ -1165,7 +1130,7 @@
                   }
                 }
               ],
-              "name": "Group"
+              "name": "Group !=Control"
             }
           ]
         },
@@ -1249,7 +1214,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "fb80649f-28fc-4bd2-8909-24a3d2b7bf35"
+        "id": "7c5389c8-d42c-4f49-98a5-b29f3a556014"
       },
       "parentDataStepId": ""
     },
@@ -1744,7 +1709,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "d4aa2677-9fe0-4e06-8190-9bc80359d628"
+        "id": "5e6d4c7a-8c7c-48a0-8d86-e15307911b56"
       },
       "parentDataStepId": ""
     },
@@ -1771,8 +1736,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 625.1405416870119,
-          "y": 557.5
+          "x": 763.140541687012,
+          "y": 478.5
         }
       },
       "state": {
@@ -1817,7 +1782,7 @@
         "topLeft": {
           "kind": "Point",
           "x": 626.5389535522461,
-          "y": 45.5
+          "y": 33.5
         }
       },
       "state": {
@@ -1838,8 +1803,8 @@
             "name": "Measurement",
             "type": "double",
             "isSingle": true,
-            "description": "",
-            "factorName": "Measurement",
+            "description": "Select the factor that defines the values to use in the computation.\n\nExample:\n* log transform of S100\n* log transformed and ComBat Corrected S100\n* VSN transformed S100\n* VSN transformed and ComBat Corrected S100",
+            "factorName": "Quantitation Type",
             "factors": [
               {
                 "kind": "Factor",
@@ -1854,8 +1819,8 @@
             "name": "Variable",
             "type": "string",
             "isSingle": false,
-            "description": "",
-            "factorName": "Variable",
+            "description": "Select the peptide identifier.\n\nExample:\n* ID",
+            "factorName": "Peptide",
             "factors": [
               {
                 "kind": "Factor",
@@ -1870,7 +1835,7 @@
             "name": "Supergroup",
             "type": "string",
             "isSingle": false,
-            "description": "",
+            "description": "Select a factor that identifies the Supergroup. Supergroup(s) define each comparison group for which UKA should be run. \n\nExample:\n* Supergroup\n* Replicate\n* Cell line",
             "factorName": "Supergroup",
             "factors": [
               {
@@ -1886,8 +1851,8 @@
             "name": "Group",
             "type": "string",
             "isSingle": false,
-            "description": "",
-            "factorName": "Group",
+            "description": "Select the factor that defines the comparison groups.\n\nExample:\n* Test Condition\n* Treatment off chip",
+            "factorName": "Test Condition",
             "factors": [
               {
                 "kind": "Factor",
@@ -1902,8 +1867,8 @@
             "name": "Observation",
             "type": "string",
             "isSingle": false,
-            "description": "",
-            "factorName": "Observation",
+            "description": "Select the factor(s) defining a single value per cell.\n\nExample:\n* Barcode and Row\n* Barcode and Array\n * Sample Name",
+            "factorName": "Single Data Value per Cell",
             "factors": [
               {
                 "kind": "Factor",
@@ -1938,6 +1903,30 @@
               "name": "Group"
             },
             "isRequired": true
+          },
+          {
+            "kind": "MappingFilter",
+            "name": "Group !=Control",
+            "description": "",
+            "namedFilter": {
+              "kind": "NamedFilter",
+              "logical": "and",
+              "not": false,
+              "filterExprs": [
+                {
+                  "kind": "FilterExpr",
+                  "filterOp": "notequals",
+                  "stringValue": "Control",
+                  "factor": {
+                    "kind": "Factor",
+                    "name": "Group",
+                    "type": "string"
+                  }
+                }
+              ],
+              "name": "Group !=Control"
+            },
+            "isRequired": false
           }
         ],
         "steps": [],
@@ -1947,8 +1936,8 @@
             "name": "Measurement",
             "type": "double",
             "isSingle": true,
-            "description": "",
-            "factorName": "Measurement",
+            "description": "Select the factor that defines the values to use in the computation.\n\nExample:\n* log transform of S100\n* log transformed and ComBat Corrected S100\n* VSN transformed S100\n* VSN transformed and ComBat Corrected S100",
+            "factorName": "Quantitation Type",
             "factors": [
               {
                 "kind": "Factor",
@@ -1963,8 +1952,8 @@
             "name": "Variable",
             "type": "string",
             "isSingle": false,
-            "description": "",
-            "factorName": "Variable",
+            "description": "Select the peptide identifier.\n\nExample:\n* ID",
+            "factorName": "Peptide",
             "factors": [
               {
                 "kind": "Factor",
@@ -1979,7 +1968,7 @@
             "name": "Supergroup",
             "type": "string",
             "isSingle": false,
-            "description": "",
+            "description": "Select a factor that identifies the Supergroup. Supergroup(s) define each comparison group for which UKA should be run. \n\nExample:\n* Supergroup\n* Replicate\n* Cell line",
             "factorName": "Supergroup",
             "factors": [
               {
@@ -1995,8 +1984,8 @@
             "name": "Group",
             "type": "string",
             "isSingle": false,
-            "description": "",
-            "factorName": "Group",
+            "description": "Select the factor that defines the comparison groups.\n\nExample:\n* Test Condition\n* Treatment off chip",
+            "factorName": "Test Condition",
             "factors": [
               {
                 "kind": "Factor",
@@ -2011,8 +2000,8 @@
             "name": "Observation",
             "type": "string",
             "isSingle": false,
-            "description": "",
-            "factorName": "Observation",
+            "description": "Select the factor(s) defining a single value per cell.\n\nExample:\n* Barcode and Row\n* Barcode and Array\n * Sample Name",
+            "factorName": "Single Data Value per Cell",
             "factors": [
               {
                 "kind": "Factor",
@@ -2047,14 +2036,132 @@
               "name": "Group"
             },
             "isRequired": true
+          },
+          {
+            "kind": "MappingFilter",
+            "name": "Group !=Control",
+            "description": "",
+            "namedFilter": {
+              "kind": "NamedFilter",
+              "logical": "and",
+              "not": false,
+              "filterExprs": [
+                {
+                  "kind": "FilterExpr",
+                  "filterOp": "notequals",
+                  "stringValue": "Control",
+                  "factor": {
+                    "kind": "Factor",
+                    "name": "Group",
+                    "type": "string"
+                  }
+                }
+              ],
+              "name": "Group !=Control"
+            },
+            "isRequired": false
           }
         ]
+      }
+    },
+    {
+      "kind": "OutStep",
+      "id": "4c4d6aa0-2bb3-4830-b00e-f5129acdd72c",
+      "groupId": "",
+      "name": "Output",
+      "inputs": [
+        {
+          "kind": "InputPort",
+          "id": "4c4d6aa0-2bb3-4830-b00e-f5129acdd72c-i-0",
+          "linkType": "any",
+          "name": "from"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "OutputPort",
+          "id": "4c4d6aa0-2bb3-4830-b00e-f5129acdd72c-o-0",
+          "linkType": "any",
+          "name": "to"
+        }
+      ],
+      "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+          "kind": "Point",
+          "x": 88.99000000000001,
+          "y": 55.0
+        },
+        "topLeft": {
+          "kind": "Point",
+          "x": 624.140541687012,
+          "y": 566.5
+        }
+      },
+      "state": {
+        "kind": "StepState",
+        "taskId": "",
+        "taskState": {
+          "kind": "InitState"
+        }
+      },
+      "groupPortPosition": {
+        "kind": "Point",
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "kind": "InStep",
+      "id": "064f619a-69e1-4b54-a01b-c431c7d2387c",
+      "groupId": "",
+      "name": "Input",
+      "inputs": [
+        {
+          "kind": "InputPort",
+          "id": "064f619a-69e1-4b54-a01b-c431c7d2387c-i-0",
+          "linkType": "any",
+          "name": "from"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "OutputPort",
+          "id": "064f619a-69e1-4b54-a01b-c431c7d2387c-o-0",
+          "linkType": "any",
+          "name": "to"
+        }
+      ],
+      "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+          "kind": "Point",
+          "x": 88.99000000000001,
+          "y": 55.0
+        },
+        "topLeft": {
+          "kind": "Point",
+          "x": 629.0,
+          "y": -60.0
+        }
+      },
+      "state": {
+        "kind": "StepState",
+        "taskId": "",
+        "taskState": {
+          "kind": "InitState"
+        }
+      },
+      "groupPortPosition": {
+        "kind": "Point",
+        "x": 0.0,
+        "y": 0.0
       }
     }
   ],
   "offset": {
     "kind": "Point",
-    "x": 46.0,
-    "y": 313.0
+    "x": 145.0,
+    "y": 229.0
   }
 }
