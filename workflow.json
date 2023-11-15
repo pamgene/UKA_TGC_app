@@ -4,7 +4,7 @@
   "isDeleted": false,
   "rev": "59-9ec0a2182f89063c03a70ce0396dc845",
   "description": "Converts a list of peptides into a list of kinases.",
-  "name": "UKA_TT_app",
+  "name": "UKA_TGC_app",
   "createdBy": "dschuller",
   "acl": {
     "kind": "Acl",
@@ -22,7 +22,7 @@
   "urls": [
     {
       "kind": "Url",
-      "uri": "https://github.com/pamgene/UKA_TT_app"
+      "uri": "https://github.com/pamgene/UKA_TGC_app"
     }
   ],
   "tags": [],
@@ -1807,9 +1807,9 @@
       },
       "model": {
         "kind": "WizardStepModel",
-        "namespace": "UKA_TT",
+        "namespace": "UKA_TGC",
         "description": "",
-        "appDesignType": "UKA_TT.c06_super_2group_control",
+        "appDesignType": "UKA_TGC.c06_super_2group_control",
         "factors": [
           {
             "kind": "MappingFactor",
