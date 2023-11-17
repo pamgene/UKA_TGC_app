@@ -2,9 +2,9 @@
   "kind": "Workflow",
   "id": "e25dc686b5c3b9823c488a47e2698d7b",
   "isDeleted": false,
-  "rev": "61-641b69a9fc1cf1eea6f34e630603ee9e",
+  "rev": "64-12f66663f29baa892d030727891772b0",
   "description": "Converts a list of peptides into a list of kinases.",
-  "name": "UKA_TT_app",
+  "name": "UKA_TGC_app",
   "createdBy": "dschuller",
   "acl": {
     "kind": "Acl",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-11-17T12:36:08.870515Z"
+    "value": "2023-11-17T15:03:57.906980Z"
   },
   "urls": [
     {
@@ -102,26 +102,26 @@
     },
     {
       "kind": "Link",
-      "id": "f71c0f1f-69f8-4a93-a762-b42531afe07a",
+      "id": "3a8f25c7-6cb8-47b5-bdb4-b13ef1eb0a1b",
       "inputId": "a13ba99f-4697-4e80-9cc1-16de6f1f35ed-i-0",
       "outputId": "a8c903f7-e92c-4536-9e72-cd470a330b70-o-0"
     },
     {
       "kind": "Link",
-      "id": "045c9062-f814-407e-87ae-566effe4d7b6",
-      "inputId": "0ed27dca-09d0-430c-99ce-754ea4ca40c6-i-0",
-      "outputId": "4161a501-12b2-46de-b33d-e2be2cc98fe6-o-0"
+      "id": "2c7767d1-23ec-4d1b-ba13-8b57897fc6f8",
+      "inputId": "ca93b09c-6a19-48a8-b118-2f9848392ef7-i-0",
+      "outputId": "ae528169-5ae4-4a13-8ed2-7f1f6bba2986-o-0"
     },
     {
       "kind": "Link",
-      "id": "55aa10d9-157e-44a3-8e31-f1798af8cbd6",
+      "id": "cdfe0ad6-b17b-4e45-9241-7e1cd2fe7e2e",
       "inputId": "a8c903f7-e92c-4536-9e72-cd470a330b70-i-0",
-      "outputId": "0ed27dca-09d0-430c-99ce-754ea4ca40c6-o-0"
+      "outputId": "ca93b09c-6a19-48a8-b118-2f9848392ef7-o-0"
     },
     {
       "kind": "Link",
-      "id": "b339db05-a742-4d67-8197-a841a2b87d1c",
-      "inputId": "e8d67dec-c83d-4eee-80c8-1aa62ffb8bd3-i-0",
+      "id": "21a46ecf-3b87-4411-9aca-8996cee7b7d1",
+      "inputId": "3bc119a7-7130-46bf-b88f-f291b4feabf4-i-0",
       "outputId": "6514d203-6472-4f6c-8a59-bc5d826e95d6-o-0"
     }
   ],
@@ -558,7 +558,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "51925be2-8cb4-4fea-be0b-0d95ff3f5264"
+        "id": "c329e634-448a-4c23-8d6a-e7326b644703"
       },
       "parentDataStepId": ""
     },
@@ -892,7 +892,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "c51fc71f-abaf-48a2-956b-0f2f0d4280bc"
+        "id": "6d6c5043-58d3-4ce3-a187-d82abf6137c8"
       },
       "parentDataStepId": ""
     },
@@ -1226,7 +1226,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "4149c825-bf3f-4b00-9994-316de8702ed7"
+        "id": "52cc9071-1f71-456a-a980-faaccf7e4226"
       },
       "parentDataStepId": ""
     },
@@ -1740,7 +1740,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "43a44635-9b4f-411a-b64d-f57b79201d90"
+        "id": "e6b82187-9724-421f-9740-a183731a2a0c"
       },
       "parentDataStepId": ""
     },
@@ -2383,7 +2383,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "1b9ac70c-3288-46ae-a778-aa9710716667"
+        "id": "5d944626-60a2-494c-82c2-00c894771303"
       },
       "parentDataStepId": ""
     },
@@ -2424,13 +2424,13 @@
     },
     {
       "kind": "InStep",
-      "id": "0ed27dca-09d0-430c-99ce-754ea4ca40c6",
+      "id": "ca93b09c-6a19-48a8-b118-2f9848392ef7",
       "groupId": "",
       "name": "Input",
       "inputs": [
         {
           "kind": "InputPort",
-          "id": "0ed27dca-09d0-430c-99ce-754ea4ca40c6-i-0",
+          "id": "ca93b09c-6a19-48a8-b118-2f9848392ef7-i-0",
           "linkType": "any",
           "name": "from"
         }
@@ -2438,7 +2438,7 @@
       "outputs": [
         {
           "kind": "OutputPort",
-          "id": "0ed27dca-09d0-430c-99ce-754ea4ca40c6-o-0",
+          "id": "ca93b09c-6a19-48a8-b118-2f9848392ef7-o-0",
           "linkType": "any",
           "name": "to"
         }
@@ -2452,8 +2452,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 624.0,
-          "y": -76.0
+          "x": 632.0,
+          "y": -75.0
         }
       },
       "state": {
@@ -2471,13 +2471,13 @@
     },
     {
       "kind": "OutStep",
-      "id": "e8d67dec-c83d-4eee-80c8-1aa62ffb8bd3",
+      "id": "3bc119a7-7130-46bf-b88f-f291b4feabf4",
       "groupId": "",
       "name": "Output",
       "inputs": [
         {
           "kind": "InputPort",
-          "id": "e8d67dec-c83d-4eee-80c8-1aa62ffb8bd3-i-0",
+          "id": "3bc119a7-7130-46bf-b88f-f291b4feabf4-i-0",
           "linkType": "any",
           "name": "from"
         }
@@ -2485,7 +2485,7 @@
       "outputs": [
         {
           "kind": "OutputPort",
-          "id": "e8d67dec-c83d-4eee-80c8-1aa62ffb8bd3-o-0",
+          "id": "3bc119a7-7130-46bf-b88f-f291b4feabf4-o-0",
           "linkType": "any",
           "name": "to"
         }
@@ -2499,8 +2499,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 746.140541687012,
-          "y": 471.5
+          "x": 770.140541687012,
+          "y": 477.5
         }
       },
       "state": {
@@ -2519,7 +2519,7 @@
   ],
   "offset": {
     "kind": "Point",
-    "x": 241.0,
-    "y": 17.0
+    "x": 145.0,
+    "y": 10.0
   }
 }
