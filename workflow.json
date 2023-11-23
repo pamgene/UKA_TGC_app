@@ -2,7 +2,7 @@
   "kind": "Workflow",
   "id": "a29d064125e6ecbe4a7271143145232a",
   "isDeleted": false,
-  "rev": "7-b84d38b0e8897b20eb87d0e9604e5469",
+  "rev": "8-3cf7b25b9f1dbe29908ff62c29d268f3",
   "description": "UKA Two-Group Comparison",
   "name": "UKA_TGC_app",
   "createdBy": "dschuller",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-11-23T09:28:10.898991Z"
+    "value": "2023-11-23T13:58:34.021012Z"
   },
   "urls": [
     {
@@ -1014,7 +1014,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 2
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -1027,8 +1027,8 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "UKA operator",
-            "version": "0.0.1",
-            "operatorId": "375b976c71390543dc5c4a15c7b36679",
+            "version": "0.0.2",
+            "operatorId": "9a9eb9fb57611dc93df0763ceb41330a",
             "operatorKind": "ROperator",
             "propertyValues": [
               {
@@ -1115,7 +1115,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 173
+          "nRows": 1
         },
         "taskId": ""
       },
@@ -2283,7 +2283,7 @@
   ],
   "offset": {
     "kind": "Point",
-    "x": 621.0,
-    "y": 320.0
+    "x": 586.0,
+    "y": 113.0
   }
 }
