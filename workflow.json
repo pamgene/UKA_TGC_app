@@ -2,7 +2,7 @@
   "kind": "Workflow",
   "id": "a29d064125e6ecbe4a7271143145232a",
   "isDeleted": false,
-  "rev": "6-b402cefe2502a1f2514701fef5429537",
+  "rev": "7-b84d38b0e8897b20eb87d0e9604e5469",
   "description": "UKA Two-Group Comparison",
   "name": "UKA_TGC_app",
   "createdBy": "dschuller",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-11-22T12:13:55.805821Z"
+    "value": "2023-11-23T09:28:10.898991Z"
   },
   "urls": [
     {
@@ -81,15 +81,15 @@
     },
     {
       "kind": "Link",
-      "id": "40423d18-e8a3-4fc5-a412-1f688bee6585",
+      "id": "8ecf3efe-e6f1-4553-a4c0-a4d2ebea6ecb",
       "inputId": "ebda5081-aae4-45fc-b91b-f7b4b19d402a-i-0",
       "outputId": "5b4e3593-20dc-4858-ada7-26e48908abcc-o-0"
     },
     {
       "kind": "Link",
-      "id": "d4dceed6-e657-4d24-b7a0-48dc8bd21ac9",
+      "id": "f46bdc66-89e5-411e-9c40-a09e07b7298d",
       "inputId": "5b4e3593-20dc-4858-ada7-26e48908abcc-i-0",
-      "outputId": "892f6f44-8fc3-4a37-a1e1-c0863ae8beb4-o-0"
+      "outputId": "22ec8910-aaa2-42c8-ad04-1c3809ddd624-o-0"
     }
   ],
   "steps": [
@@ -256,6 +256,27 @@
               "kind": "GraphicalFactor",
               "factor": {
                 "kind": "Factor",
+                "name": "Group",
+                "type": "string"
+              },
+              "rectangle": {
+                "kind": "Rectangle",
+                "extent": {
+                  "kind": "Point",
+                  "x": 50.0,
+                  "y": 30.0
+                },
+                "topLeft": {
+                  "kind": "Point",
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            },
+            {
+              "kind": "GraphicalFactor",
+              "factor": {
+                "kind": "Factor",
                 "name": "Observation",
                 "type": "string"
               },
@@ -275,7 +296,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 1
+          "nRows": 6
         },
         "filters": {
           "kind": "Filters",
@@ -376,13 +397,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 1
+          "nRows": 173
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "928dc556-c1f5-46cb-ad5e-915486c38178"
+        "id": "2d5f76e2-c670-4208-b8b1-d0eda6cf4f56"
       },
       "parentDataStepId": ""
     },
@@ -549,6 +570,27 @@
               "kind": "GraphicalFactor",
               "factor": {
                 "kind": "Factor",
+                "name": "Group",
+                "type": "string"
+              },
+              "rectangle": {
+                "kind": "Rectangle",
+                "extent": {
+                  "kind": "Point",
+                  "x": 50.0,
+                  "y": 30.0
+                },
+                "topLeft": {
+                  "kind": "Point",
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            },
+            {
+              "kind": "GraphicalFactor",
+              "factor": {
+                "kind": "Factor",
                 "name": "Observation",
                 "type": "string"
               },
@@ -675,7 +717,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "e99b304f-f525-4674-96b4-4ef8ec40113d"
+        "id": "dd561365-8d39-4bf0-ad31-4ee3408541a1"
       },
       "parentDataStepId": ""
     },
@@ -1079,7 +1121,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "b629103b-189b-4e70-926b-9dd84d7af2be"
+        "id": "3bc09a53-5c1b-474d-8669-b0a9f366b4cd"
       },
       "parentDataStepId": ""
     },
@@ -1468,7 +1510,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "5713ac67-66f6-4b2c-b291-935a56daaa16"
+        "id": "21b57489-b421-4e78-935c-274a11307754"
       },
       "parentDataStepId": ""
     },
@@ -1537,7 +1579,7 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 274.5050000000001,
+          "x": 275.5050000000001,
           "y": 530.5
         }
       },
@@ -1719,7 +1761,7 @@
               {
                 "kind": "PropertyValue",
                 "name": "export_to_project",
-                "value": "false"
+                "value": "true"
               },
               {
                 "kind": "PropertyValue",
@@ -1870,7 +1912,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "550732ef-66e1-40d4-ada8-25a66eb72dc7"
+        "id": "c6450d12-ef81-4ce4-ba11-1d356d3eae05"
       },
       "parentDataStepId": ""
     },
@@ -1948,6 +1990,22 @@
               {
                 "kind": "Factor",
                 "name": "Variable",
+                "type": "string"
+              }
+            ],
+            "isRequired": true
+          },
+          {
+            "kind": "MappingFactor",
+            "name": "Group",
+            "type": "string",
+            "isSingle": false,
+            "description": "",
+            "factorName": "Group",
+            "factors": [
+              {
+                "kind": "Factor",
+                "name": "Group",
                 "type": "string"
               }
             ],
@@ -2074,6 +2132,22 @@
           },
           {
             "kind": "MappingFactor",
+            "name": "Group",
+            "type": "string",
+            "isSingle": false,
+            "description": "",
+            "factorName": "Group",
+            "factors": [
+              {
+                "kind": "Factor",
+                "name": "Group",
+                "type": "string"
+              }
+            ],
+            "isRequired": true
+          },
+          {
+            "kind": "MappingFactor",
             "name": "Observation",
             "type": "string",
             "isSingle": false,
@@ -2161,13 +2235,13 @@
     },
     {
       "kind": "InStep",
-      "id": "892f6f44-8fc3-4a37-a1e1-c0863ae8beb4",
+      "id": "22ec8910-aaa2-42c8-ad04-1c3809ddd624",
       "groupId": "",
       "name": "Input",
       "inputs": [
         {
           "kind": "InputPort",
-          "id": "892f6f44-8fc3-4a37-a1e1-c0863ae8beb4-i-0",
+          "id": "22ec8910-aaa2-42c8-ad04-1c3809ddd624-i-0",
           "linkType": "any",
           "name": "from"
         }
@@ -2175,7 +2249,7 @@
       "outputs": [
         {
           "kind": "OutputPort",
-          "id": "892f6f44-8fc3-4a37-a1e1-c0863ae8beb4-o-0",
+          "id": "22ec8910-aaa2-42c8-ad04-1c3809ddd624-o-0",
           "linkType": "any",
           "name": "to"
         }
@@ -2189,8 +2263,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 278.5050000000001,
-          "y": 1.5
+          "x": 272.5050000000001,
+          "y": 0.5
         }
       },
       "state": {
@@ -2209,7 +2283,7 @@
   ],
   "offset": {
     "kind": "Point",
-    "x": 544.0,
-    "y": 104.0
+    "x": 621.0,
+    "y": 320.0
   }
 }
