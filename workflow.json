@@ -2,7 +2,7 @@
   "kind": "Workflow",
   "id": "a29d064125e6ecbe4a7271143145232a",
   "isDeleted": false,
-  "rev": "21-213300e1ba232df9749c3e0c9f0e131e",
+  "rev": "22-f8af67448443ff106ee9d399fb5ea5d9",
   "description": "UKA Two-Group Comparison",
   "name": "UKA_TGC_app",
   "createdBy": "dschuller",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-11-28T15:20:17.826485Z"
+    "value": "2023-11-28T15:48:09.392542Z"
   },
   "urls": [
     {
@@ -75,21 +75,15 @@
     },
     {
       "kind": "Link",
-      "id": "3c43604d-f2b4-4f29-942d-3633a921ef20",
+      "id": "0360dc39-8fe5-4147-896c-37865019015d",
       "inputId": "ebda5081-aae4-45fc-b91b-f7b4b19d402a-i-0",
       "outputId": "5b4e3593-20dc-4858-ada7-26e48908abcc-o-0"
     },
     {
       "kind": "Link",
-      "id": "ba3210b8-c3dd-4d65-bfaf-555e228e6bb2",
+      "id": "66477350-bfdd-475e-8bbc-33fbeb8a3acf",
       "inputId": "5b4e3593-20dc-4858-ada7-26e48908abcc-i-0",
-      "outputId": "dbbe0976-c147-42ba-a6f0-d9b38aedfe44-o-0"
-    },
-    {
-      "kind": "Link",
-      "id": "4c33b772-2ac9-497d-bf92-e5bbe14111fb",
-      "inputId": "f5412d53-b8cf-4b23-910d-b4c23abc9a15-i-0",
-      "outputId": "82f6f8c1-6204-4a5c-a844-d318b771e23c-o-0"
+      "outputId": "90685a59-61bc-404a-a12c-5e735f945197-o-0"
     }
   ],
   "steps": [
@@ -401,7 +395,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "ec3b35df-e243-432e-802a-708df96330cd"
+        "id": "971762f8-4e57-4667-a000-b137eabc7922"
       },
       "parentDataStepId": ""
     },
@@ -713,7 +707,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "7929dcde-ec03-4b2e-b11e-3c43d202c01b"
+        "id": "faed7455-cd17-409c-b825-996e27002a1d"
       },
       "parentDataStepId": ""
     },
@@ -1113,7 +1107,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "4b805740-ef75-42ee-b48d-c04b2d58300c"
+        "id": "5b88707e-8be5-45e1-a664-8c8aa0a1def2"
       },
       "parentDataStepId": ""
     },
@@ -1611,7 +1605,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "0c53d8ed-70e5-4fa5-abc6-30b6b71431bc"
+        "id": "a301091e-2e40-4347-ae11-e11ea8148780"
       },
       "parentDataStepId": ""
     },
@@ -2149,14 +2143,14 @@
           "namespace": "Volcano0",
           "operatorRef": {
             "kind": "OperatorRef",
-            "name": "",
-            "version": "",
-            "operatorId": "",
-            "operatorKind": "",
+            "name": "Volcano Plot",
+            "version": "0.0.3",
+            "operatorId": "e3d98495ccd1bc1ddde3430a4d67ad7e",
+            "operatorKind": "ShinyOperator",
             "propertyValues": [],
             "url": {
               "kind": "Url",
-              "uri": ""
+              "uri": "https://github.com/tercen/volcano_shiny_operator"
             }
           },
           "environment": [
@@ -2224,19 +2218,19 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "5e3223a4-015a-41c7-80b0-154b9ff9a765"
+        "id": "ad331076-6bc2-48ec-840f-35b2796de512"
       },
       "parentDataStepId": ""
     },
     {
       "kind": "InStep",
-      "id": "dbbe0976-c147-42ba-a6f0-d9b38aedfe44",
+      "id": "90685a59-61bc-404a-a12c-5e735f945197",
       "groupId": "",
       "name": "Input",
       "inputs": [
         {
           "kind": "InputPort",
-          "id": "dbbe0976-c147-42ba-a6f0-d9b38aedfe44-i-0",
+          "id": "90685a59-61bc-404a-a12c-5e735f945197-i-0",
           "linkType": "any",
           "name": "from"
         }
@@ -2244,7 +2238,7 @@
       "outputs": [
         {
           "kind": "OutputPort",
-          "id": "dbbe0976-c147-42ba-a6f0-d9b38aedfe44-o-0",
+          "id": "90685a59-61bc-404a-a12c-5e735f945197-o-0",
           "linkType": "any",
           "name": "to"
         }
@@ -2258,55 +2252,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 270.5050000000001,
-          "y": -8.5
-        }
-      },
-      "state": {
-        "kind": "StepState",
-        "taskId": "",
-        "taskState": {
-          "kind": "InitState"
-        }
-      },
-      "groupPortPosition": {
-        "kind": "Point",
-        "x": 0.0,
-        "y": 0.0
-      }
-    },
-    {
-      "kind": "OutStep",
-      "id": "f5412d53-b8cf-4b23-910d-b4c23abc9a15",
-      "groupId": "",
-      "name": "Output",
-      "inputs": [
-        {
-          "kind": "InputPort",
-          "id": "f5412d53-b8cf-4b23-910d-b4c23abc9a15-i-0",
-          "linkType": "any",
-          "name": "from"
-        }
-      ],
-      "outputs": [
-        {
-          "kind": "OutputPort",
-          "id": "f5412d53-b8cf-4b23-910d-b4c23abc9a15-o-0",
-          "linkType": "any",
-          "name": "to"
-        }
-      ],
-      "rectangle": {
-        "kind": "Rectangle",
-        "extent": {
-          "kind": "Point",
-          "x": 88.99000000000001,
-          "y": 55.0
-        },
-        "topLeft": {
-          "kind": "Point",
-          "x": 284.5050000000001,
-          "y": 523.5
+          "x": 269.5050000000001,
+          "y": -10.5
         }
       },
       "state": {
