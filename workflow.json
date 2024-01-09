@@ -2,7 +2,7 @@
   "kind": "Workflow",
   "id": "a29d064125e6ecbe4a7271143145232a",
   "isDeleted": false,
-  "rev": "27-269c2a7a67b7567cc716a3922fe49b32",
+  "rev": "28-26b1d4ca0de6ac5c6cf5123e0df12bca",
   "description": "UKA Two-Group Comparison",
   "name": "UKA_TGC_app",
   "createdBy": "dschuller",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-11-30T17:12:42.924532Z"
+    "value": "2024-01-09T09:41:00.153684Z"
   },
   "urls": [
     {
@@ -35,7 +35,7 @@
   ],
   "url": {
     "kind": "Url",
-    "uri": "https://github.com/pamgene/UKA_TGC_app"
+    "uri": "https://github.com/pamgene/UKA_TGC_app "
   },
   "version": "1.0.1",
   "authors": [],
@@ -1416,7 +1416,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 9
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -1429,8 +1429,8 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "Export Table",
-            "version": "0.1.0",
-            "operatorId": "a29d064125e6ecbe4a7271143160902c",
+            "version": "0.1.2",
+            "operatorId": "3f879ffdca45d3227f70fe3176a8a2b1",
             "operatorKind": "ROperator",
             "propertyValues": [
               {
@@ -1441,12 +1441,12 @@
               {
                 "kind": "PropertyValue",
                 "name": "filename",
-                "value": "Exported_Table"
+                "value": "Export-WORKFLOW-GROUP"
               },
               {
                 "kind": "PropertyValue",
                 "name": "export_to_project",
-                "value": "true"
+                "value": "false"
               },
               {
                 "kind": "PropertyValue",
@@ -1456,7 +1456,7 @@
               {
                 "kind": "PropertyValue",
                 "name": "time_stamp",
-                "value": "true"
+                "value": "false"
               },
               {
                 "kind": "PropertyValue",
@@ -1617,7 +1617,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 174
+          "nRows": 1
         },
         "taskId": ""
       },
@@ -1672,7 +1672,7 @@
         "kind": "WizardStepModel",
         "namespace": "UKA_TGC",
         "description": "",
-        "appDesignType": "UKA_TGC.c06_super_2group_control",
+        "appDesignType": "UKA_TGC.c05_super_2group_control",
         "factors": [
           {
             "kind": "MappingFactor",
@@ -2662,7 +2662,7 @@
   ],
   "offset": {
     "kind": "Point",
-    "x": 545.0,
-    "y": 134.0
+    "x": 537.0,
+    "y": 22.0
   }
 }
