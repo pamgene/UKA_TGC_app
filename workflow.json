@@ -1446,7 +1446,7 @@
               {
                 "kind": "PropertyValue",
                 "name": "export_to_project",
-                "value": "false"
+                "value": "true"
               },
               {
                 "kind": "PropertyValue",
@@ -1456,7 +1456,7 @@
               {
                 "kind": "PropertyValue",
                 "name": "time_stamp",
-                "value": "false"
+                "value": "true"
               },
               {
                 "kind": "PropertyValue",
@@ -1672,7 +1672,7 @@
         "kind": "WizardStepModel",
         "namespace": "UKA_TGC",
         "description": "",
-        "appDesignType": "UKA_TGC.c05_super_2group_control",
+        "appDesignType": "UKA_TGC.c06_super_2group_control",
         "factors": [
           {
             "kind": "MappingFactor",
