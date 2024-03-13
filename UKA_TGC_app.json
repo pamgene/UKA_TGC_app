@@ -25,7 +25,13 @@
   }
  ],
  "tags": [],
- "meta": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "PUBLISHED",
+   "value": "true"
+  }
+ ],
  "url": {
   "kind": "Url",
   "uri": "https://github.com/pamgene/UKA_TGC_app "
@@ -1459,12 +1465,12 @@
        {
         "kind": "PropertyValue",
         "name": "filename_prefix",
-        "value": "Exported_Table"
+        "value": "Export"
        },
        {
         "kind": "PropertyValue",
         "name": "export_to_project",
-        "value": "false"
+        "value": "true"
        },
        {
         "kind": "PropertyValue",
