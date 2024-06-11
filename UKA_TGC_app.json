@@ -79,20 +79,26 @@
   },
   {
    "kind": "Link",
-   "id": "45ddddac-8028-4123-af51-bcbb5050d6b0",
+   "id": "f0e2406d-2552-4b25-ace4-3c7ec2281f3a",
    "inputId": "ebda5081-aae4-45fc-b91b-f7b4b19d402a-i-0",
    "outputId": "c2be17d2-d1a7-4ff3-9813-afad67f2fb6d-o-0"
   },
   {
    "kind": "Link",
-   "id": "6fe1fd99-ecc6-447d-8101-4f24f44108a3",
-   "inputId": "c2be17d2-d1a7-4ff3-9813-afad67f2fb6d-i-0",
-   "outputId": "1dc1bfab-5248-4b8a-8f0c-5dad67dda594-o-0"
+   "id": "b93455b0-d3aa-43c4-8382-cd15179b355a",
+   "inputId": "1748b042-4dc6-4f64-ae85-6bf11039951d-i-0",
+   "outputId": "96cecc2d-a74f-488e-8c93-59059ef8e1c4-o-0"
   },
   {
    "kind": "Link",
-   "id": "752dff42-7e68-4b87-9606-e88e8654a94a",
-   "inputId": "8f0b05ad-9dc4-49a5-94b6-d402bbcee0fa-i-0",
+   "id": "cbe11c9e-a72b-4466-a0c1-97284bd4682e",
+   "inputId": "c2be17d2-d1a7-4ff3-9813-afad67f2fb6d-i-0",
+   "outputId": "1748b042-4dc6-4f64-ae85-6bf11039951d-o-0"
+  },
+  {
+   "kind": "Link",
+   "id": "aac10cf6-5a8a-4617-a3ec-6ad0a41eac95",
+   "inputId": "ba26e669-1770-49df-b204-e1eff871eacc-i-0",
    "outputId": "5d134875-67a3-4994-99aa-31ec4398afe2-o-0"
   }
  ],
@@ -413,7 +419,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "bba7fa9b-3670-4a01-b1f2-76c27c1f6e7d"
+    "id": "c01a5b73-ad7f-4ca6-bd21-942be2a9aa7c"
    },
    "parentDataStepId": ""
   },
@@ -733,7 +739,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "230e165e-86bf-4f1e-8e0b-81c7b15c8981"
+    "id": "d773c9c7-15aa-4ce9-bd56-c010f5e1da03"
    },
    "parentDataStepId": ""
   },
@@ -817,7 +823,13 @@
        },
        "labels": {
         "kind": "Labels",
-        "factors": []
+        "factors": [
+         {
+          "kind": "Factor",
+          "name": "Observation",
+          "type": "string"
+         }
+        ]
        },
        "xAxis": {
         "kind": "Axis",
@@ -1141,7 +1153,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "d4c49c71-a36c-4aa5-b02e-27ccd4e1a083"
+    "id": "e9a253a7-51db-47b0-a6ff-ede4ae3f5a83"
    },
    "parentDataStepId": ""
   },
@@ -1643,7 +1655,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "a2973b9b-3428-41f6-a66b-789edb15ea85"
+    "id": "56555942-b2b2-45cb-8ad1-ee6c309e1cbf"
    },
    "parentDataStepId": ""
   },
@@ -1941,7 +1953,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "64722f44-47bc-4c71-a86c-74e59a15af5f"
+    "id": "d0247097-e729-499a-98d0-6001b8f476c7"
    },
    "parentDataStepId": ""
   },
@@ -2281,7 +2293,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "8b8c6cff-b3e3-4c79-b637-163d66703f77"
+    "id": "f7a4f6bd-0d12-427c-b005-96392a9dc0d0"
    },
    "parentDataStepId": ""
   },
@@ -2315,8 +2327,8 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 273.505,
-     "y": 93.5
+     "x": 271.505,
+     "y": 95.5
     }
    },
    "state": {
@@ -2433,7 +2445,7 @@
      {
       "kind": "MappingFilter",
       "name": "Select Control",
-      "description": "",
+      "description": "Select the condition which defines the Control.\n\nExample: Test condition = Control",
       "namedFilter": {
        "kind": "NamedFilter",
        "logical": "and",
@@ -2458,7 +2470,7 @@
      {
       "kind": "MappingFilter",
       "name": "Select Test condition",
-      "description": "",
+      "description": "Select the condition which defines the Test.\n\nExample: Test condition notequals Control",
       "namedFilter": {
        "kind": "NamedFilter",
        "logical": "and",
@@ -2583,7 +2595,7 @@
      {
       "kind": "MappingFilter",
       "name": "Select Control",
-      "description": "",
+      "description": "Select the condition which defines the Control.\n\nExample: Test condition = Control",
       "namedFilter": {
        "kind": "NamedFilter",
        "logical": "and",
@@ -2608,7 +2620,7 @@
      {
       "kind": "MappingFilter",
       "name": "Select Test condition",
-      "description": "",
+      "description": "Select the condition which defines the Test.\n\nExample: Test condition notequals Control",
       "namedFilter": {
        "kind": "NamedFilter",
        "logical": "and",
@@ -2635,13 +2647,13 @@
   },
   {
    "kind": "InStep",
-   "id": "1dc1bfab-5248-4b8a-8f0c-5dad67dda594",
+   "id": "1748b042-4dc6-4f64-ae85-6bf11039951d",
    "groupId": "",
    "name": "Input",
    "inputs": [
     {
      "kind": "InputPort",
-     "id": "1dc1bfab-5248-4b8a-8f0c-5dad67dda594-i-0",
+     "id": "1748b042-4dc6-4f64-ae85-6bf11039951d-i-0",
      "linkType": "any",
      "name": "from"
     }
@@ -2649,7 +2661,7 @@
    "outputs": [
     {
      "kind": "OutputPort",
-     "id": "1dc1bfab-5248-4b8a-8f0c-5dad67dda594-o-0",
+     "id": "1748b042-4dc6-4f64-ae85-6bf11039951d-o-0",
      "linkType": "any",
      "name": "to"
     }
@@ -2663,8 +2675,8 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 276.505,
-     "y": 2.5
+     "x": 277.0,
+     "y": -15.0
     }
    },
    "state": {
@@ -2683,13 +2695,13 @@
   },
   {
    "kind": "OutStep",
-   "id": "8f0b05ad-9dc4-49a5-94b6-d402bbcee0fa",
+   "id": "ba26e669-1770-49df-b204-e1eff871eacc",
    "groupId": "",
    "name": "Output",
    "inputs": [
     {
      "kind": "InputPort",
-     "id": "8f0b05ad-9dc4-49a5-94b6-d402bbcee0fa-i-0",
+     "id": "ba26e669-1770-49df-b204-e1eff871eacc-i-0",
      "linkType": "any",
      "name": "from"
     }
@@ -2697,7 +2709,7 @@
    "outputs": [
     {
      "kind": "OutputPort",
-     "id": "8f0b05ad-9dc4-49a5-94b6-d402bbcee0fa-o-0",
+     "id": "ba26e669-1770-49df-b204-e1eff871eacc-o-0",
      "linkType": "any",
      "name": "to"
     }
@@ -2711,8 +2723,8 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 407.5050000000001,
-     "y": 446.5
+     "x": 399.5050000000001,
+     "y": 439.5
     }
    },
    "state": {
@@ -2732,8 +2744,8 @@
  ],
  "offset": {
   "kind": "Point",
-  "x": 509.0,
-  "y": -173.0
+  "x": 578.0,
+  "y": 30.0
  },
  "scale": 1.0
 }
