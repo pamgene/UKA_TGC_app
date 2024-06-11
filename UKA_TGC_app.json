@@ -79,26 +79,20 @@
   },
   {
    "kind": "Link",
-   "id": "f0e2406d-2552-4b25-ace4-3c7ec2281f3a",
+   "id": "fba32ca3-7119-47a7-97fc-3b6f53924ce1",
    "inputId": "ebda5081-aae4-45fc-b91b-f7b4b19d402a-i-0",
    "outputId": "c2be17d2-d1a7-4ff3-9813-afad67f2fb6d-o-0"
   },
   {
    "kind": "Link",
-   "id": "b93455b0-d3aa-43c4-8382-cd15179b355a",
-   "inputId": "1748b042-4dc6-4f64-ae85-6bf11039951d-i-0",
-   "outputId": "96cecc2d-a74f-488e-8c93-59059ef8e1c4-o-0"
-  },
-  {
-   "kind": "Link",
-   "id": "cbe11c9e-a72b-4466-a0c1-97284bd4682e",
+   "id": "3c962194-6371-4ec7-b902-b80fabbc0d9d",
    "inputId": "c2be17d2-d1a7-4ff3-9813-afad67f2fb6d-i-0",
-   "outputId": "1748b042-4dc6-4f64-ae85-6bf11039951d-o-0"
+   "outputId": "2668938f-e7f1-4e2c-980b-7a4f49cb6bc7-o-0"
   },
   {
    "kind": "Link",
-   "id": "289d9590-796b-45ab-8b61-c5763830cec1",
-   "inputId": "ba26e669-1770-49df-b204-e1eff871eacc-i-0",
+   "id": "a15774f1-a527-4e7d-ae41-d41be57f9494",
+   "inputId": "3711476e-b758-4f7a-9786-ac7fb796175e-i-0",
    "outputId": "5098c7d5-e8da-4e09-abf1-9b51a268369e-o-0"
   }
  ],
@@ -419,7 +413,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "c01a5b73-ad7f-4ca6-bd21-942be2a9aa7c"
+    "id": "ee1af888-7da5-49f3-9db7-df9516b831e8"
    },
    "parentDataStepId": ""
   },
@@ -739,7 +733,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "d773c9c7-15aa-4ce9-bd56-c010f5e1da03"
+    "id": "4ab772b6-49df-43d0-b97c-0f3a5e10f5c5"
    },
    "parentDataStepId": ""
   },
@@ -1153,7 +1147,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "e9a253a7-51db-47b0-a6ff-ede4ae3f5a83"
+    "id": "12ff241c-9438-4a45-9161-3fd1ad3024c2"
    },
    "parentDataStepId": ""
   },
@@ -1655,7 +1649,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "56555942-b2b2-45cb-8ad1-ee6c309e1cbf"
+    "id": "470e4c95-76ac-4951-85ae-f08688b9bf13"
    },
    "parentDataStepId": ""
   },
@@ -1953,7 +1947,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "d0247097-e729-499a-98d0-6001b8f476c7"
+    "id": "0ceb975e-cfca-430b-b7e7-dd8e4d09f823"
    },
    "parentDataStepId": ""
   },
@@ -2293,7 +2287,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "f7a4f6bd-0d12-427c-b005-96392a9dc0d0"
+    "id": "33ab8534-3f9a-4808-ab1a-a6497c3511ff"
    },
    "parentDataStepId": ""
   },
@@ -2465,7 +2459,7 @@
        "meta": [],
        "name": "Select Control"
       },
-      "isRequired": false
+      "isRequired": true
      },
      {
       "kind": "MappingFilter",
@@ -2490,7 +2484,7 @@
        "meta": [],
        "name": "Select Test condition"
       },
-      "isRequired": false
+      "isRequired": true
      }
     ],
     "steps": [],
@@ -2615,7 +2609,7 @@
        "meta": [],
        "name": "Select Control"
       },
-      "isRequired": false
+      "isRequired": true
      },
      {
       "kind": "MappingFilter",
@@ -2640,20 +2634,20 @@
        "meta": [],
        "name": "Select Test condition"
       },
-      "isRequired": false
+      "isRequired": true
      }
     ]
    }
   },
   {
    "kind": "InStep",
-   "id": "1748b042-4dc6-4f64-ae85-6bf11039951d",
+   "id": "2668938f-e7f1-4e2c-980b-7a4f49cb6bc7",
    "groupId": "",
    "name": "Input",
    "inputs": [
     {
      "kind": "InputPort",
-     "id": "1748b042-4dc6-4f64-ae85-6bf11039951d-i-0",
+     "id": "2668938f-e7f1-4e2c-980b-7a4f49cb6bc7-i-0",
      "linkType": "any",
      "name": "from"
     }
@@ -2661,7 +2655,7 @@
    "outputs": [
     {
      "kind": "OutputPort",
-     "id": "1748b042-4dc6-4f64-ae85-6bf11039951d-o-0",
+     "id": "2668938f-e7f1-4e2c-980b-7a4f49cb6bc7-o-0",
      "linkType": "any",
      "name": "to"
     }
@@ -2675,8 +2669,8 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 277.0,
-     "y": -15.0
+     "x": 277.505,
+     "y": 4.5
     }
    },
    "state": {
@@ -2695,13 +2689,13 @@
   },
   {
    "kind": "OutStep",
-   "id": "ba26e669-1770-49df-b204-e1eff871eacc",
+   "id": "3711476e-b758-4f7a-9786-ac7fb796175e",
    "groupId": "",
    "name": "Output",
    "inputs": [
     {
      "kind": "InputPort",
-     "id": "ba26e669-1770-49df-b204-e1eff871eacc-i-0",
+     "id": "3711476e-b758-4f7a-9786-ac7fb796175e-i-0",
      "linkType": "any",
      "name": "from"
     }
@@ -2709,7 +2703,7 @@
    "outputs": [
     {
      "kind": "OutputPort",
-     "id": "ba26e669-1770-49df-b204-e1eff871eacc-o-0",
+     "id": "3711476e-b758-4f7a-9786-ac7fb796175e-o-0",
      "linkType": "any",
      "name": "to"
     }
@@ -2723,8 +2717,8 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 399.5050000000001,
-     "y": 439.5
+     "x": 422.5050000000001,
+     "y": 383.5
     }
    },
    "state": {
@@ -2744,8 +2738,8 @@
  ],
  "offset": {
   "kind": "Point",
-  "x": 578.0,
-  "y": 30.0
+  "x": 638.0,
+  "y": 13.0
  },
  "scale": 1.0
 }
