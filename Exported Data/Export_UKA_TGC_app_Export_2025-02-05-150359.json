@@ -1,10 +1,10 @@
 {
  "kind": "TableSchema",
- "id": "5a2e963f78b20f84c2f04d7e313e68142b2d4ecda99c9f751d39cd82929173ea",
+ "id": "2c643fbb3e406656362ccb35d67724ab32536948373f1dbf383cedd60a001982",
  "isDeleted": false,
  "rev": "",
  "description": "",
- "name": "Export_UKA_TGC_app_Export_2024-06-11-125555",
+ "name": "Export_UKA_TGC_app_Export_2025-02-05-150359",
  "acl": {
   "kind": "Acl",
   "owner": "",
@@ -24,7 +24,7 @@
   {
    "kind": "Pair",
    "key": "SHA256",
-   "value": "5a2e963f78b20f84c2f04d7e313e68142b2d4ecda99c9f751d39cd82929173ea"
+   "value": "2c643fbb3e406656362ccb35d67724ab32536948373f1dbf383cedd60a001982"
   }
  ],
  "url": {
@@ -35,11 +35,11 @@
  "isPublic": false,
  "projectId": "",
  "folderId": "3",
- "nRows": 174,
+ "nRows": 150,
  "columns": [
   {
    "kind": "ColumnSchema",
-   "id": "7fbc7cdb-5871-4075-967e-0412f6121a9e",
+   "id": "a89b5ec8-ad3a-4ba4-830b-2ade6ba57a94",
    "name": "Supergroup",
    "type": "string",
    "nRows": 0,
@@ -54,8 +54,8 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "2627151b-202d-4ebd-8b7c-013bb9076be0",
-   "name": "UKA_TGC.ds2.Kinase Name",
+   "id": "a8b614ec-41d5-46f5-97bb-33b26f5bf8cc",
+   "name": "ds2.Kinase Name",
    "type": "string",
    "nRows": 0,
    "size": -1,
@@ -69,8 +69,8 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "b8ea6960-7686-45af-834b-3c0207ff6195",
-   "name": "UKA_TGC.ds2.Kinase Uniprot ID",
+   "id": "76ccbb7e-0632-47f1-9cca-c8891a7bdb58",
+   "name": "ds2.Kinase Uniprot ID",
    "type": "string",
    "nRows": 0,
    "size": -1,
@@ -84,8 +84,8 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "96e28210-e97f-4769-b2c1-adfd9fd076bd",
-   "name": "UKA_TGC.ds2.Kinase Group",
+   "id": "b77eaca0-6247-489f-bce7-968cb1e5427e",
+   "name": "ds2.Kinase Group",
    "type": "string",
    "nRows": 0,
    "size": -1,
@@ -99,8 +99,8 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "690ebb24-9194-43e4-b4cd-38f47b4427ff",
-   "name": "UKA_TGC.ds2.Kinase Family",
+   "id": "a494d775-47cd-4124-bac1-edead56249de",
+   "name": "ds2.Kinase Family",
    "type": "string",
    "nRows": 0,
    "size": -1,
@@ -114,8 +114,8 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "ab5aefcd-c717-437f-8fb4-f35c7ecde38a",
-   "name": "UKA_TGC.ds2.Max Final score",
+   "id": "68731040-938c-43b3-b1db-ea71476ac400",
+   "name": "ds2.Max Final score",
    "type": "double",
    "nRows": 0,
    "size": -1,
@@ -129,8 +129,8 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "e4cfc32c-79a6-4970-a9e7-e523841606ea",
-   "name": "UKA_TGC.ds2.Mean Kinase Statistic",
+   "id": "db859094-25a0-48d7-8aa0-af433ea8726b",
+   "name": "ds2.Mean Kinase Statistic",
    "type": "double",
    "nRows": 0,
    "size": -1,
@@ -144,8 +144,8 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "e6d1dce8-4558-495e-93e3-cc57544b5a39",
-   "name": "UKA_TGC.ds2.Mean Significance Score",
+   "id": "962128f5-490e-4b5a-b891-d9eb2eb78c6c",
+   "name": "ds2.Mean Significance Score",
    "type": "double",
    "nRows": 0,
    "size": -1,
@@ -159,8 +159,8 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "c0e9d4ab-a654-44ba-a53f-38c189403b97",
-   "name": "UKA_TGC.ds2.Mean Specificity Score",
+   "id": "fd02fa29-183b-4637-aad0-60858d9f8262",
+   "name": "ds2.Mean Specificity Score",
    "type": "double",
    "nRows": 0,
    "size": -1,
@@ -174,8 +174,8 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "e9401743-992c-488f-8667-f122cc3c95f7",
-   "name": "UKA_TGC.ds2.Mean peptide set size",
+   "id": "bd433075-b02d-4e9f-b462-77c1ea936635",
+   "name": "ds2.Mean peptide set size",
    "type": "double",
    "nRows": 0,
    "size": -1,
@@ -189,8 +189,8 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "2f2377cb-3873-4060-815d-084bebacca90",
-   "name": "UKA_TGC.ds2.Median Final score",
+   "id": "709560c3-818b-40e6-9a2e-b043f035a765",
+   "name": "ds2.Median Final score",
    "type": "double",
    "nRows": 0,
    "size": -1,
@@ -204,8 +204,8 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "85f52812-09e1-4d5d-83e1-d3b3a03bb60d",
-   "name": "UKA_TGC.ds2.Median Kinase Change",
+   "id": "98f409f6-9744-4e25-a763-53886a37ec6b",
+   "name": "ds2.Median Kinase Change",
    "type": "double",
    "nRows": 0,
    "size": -1,
@@ -219,8 +219,8 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "769e06d9-52c0-424d-a331-35c1aa517c9d",
-   "name": "UKA_TGC.ds2.Median Kinase Statistic",
+   "id": "c8929a5c-5615-4490-82d6-ab759493efa4",
+   "name": "ds2.Median Kinase Statistic",
    "type": "double",
    "nRows": 0,
    "size": -1,
@@ -234,8 +234,8 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "a8ca30f9-2d14-44ca-969d-9dfeb2374bdf",
-   "name": "UKA_TGC.ds2.SD Kinase Statitistic",
+   "id": "8bb88a64-02c6-4a26-8764-4bdb8fcdbf0c",
+   "name": "ds2.SD Kinase Statitistic",
    "type": "double",
    "nRows": 0,
    "size": -1,
@@ -248,9 +248,9 @@
    }
   }
  ],
- "dataDirectory": "data/5a/2e/5a2e963f78b20f84c2f04d7e313e68142b2d4ecda99c9f751d39cd82929173ea",
+ "dataDirectory": "data/2c/64/2c643fbb3e406656362ccb35d67724ab32536948373f1dbf383cedd60a001982",
  "relation": {
   "kind": "Relation",
-  "id": "a849399f-a2e3-4d7f-a466-b2b31a5d6a1a"
+  "id": "e65d8cc3-3866-4fd1-a1ac-052022326f1c"
  }
 }

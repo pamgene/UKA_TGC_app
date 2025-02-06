@@ -1,10 +1,10 @@
 {
  "kind": "TableSchema",
- "id": "5a2e963f78b20f84c2f04d7e313e68142b2d4ecda99c9f751d39cd82929173ea",
+ "id": "b816971b2c4f38224b3a3885c1af77f027d697e9bce3eff3d1805350652c1ef6",
  "isDeleted": false,
  "rev": "",
  "description": "",
- "name": "Export_UKA_TGC_app_Export_2024-06-11-125555",
+ "name": "Export_UKA_TGC_app_Export_2025-02-06-091109",
  "acl": {
   "kind": "Acl",
   "owner": "",
@@ -24,7 +24,7 @@
   {
    "kind": "Pair",
    "key": "SHA256",
-   "value": "5a2e963f78b20f84c2f04d7e313e68142b2d4ecda99c9f751d39cd82929173ea"
+   "value": "b816971b2c4f38224b3a3885c1af77f027d697e9bce3eff3d1805350652c1ef6"
   }
  ],
  "url": {
@@ -35,11 +35,11 @@
  "isPublic": false,
  "projectId": "",
  "folderId": "3",
- "nRows": 174,
+ "nRows": 150,
  "columns": [
   {
    "kind": "ColumnSchema",
-   "id": "7fbc7cdb-5871-4075-967e-0412f6121a9e",
+   "id": "a1af341c-8089-45c8-bcc4-549e86a75631",
    "name": "Supergroup",
    "type": "string",
    "nRows": 0,
@@ -54,7 +54,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "2627151b-202d-4ebd-8b7c-013bb9076be0",
+   "id": "7e434c73-047f-478f-90bb-787a08eb310b",
    "name": "UKA_TGC.ds2.Kinase Name",
    "type": "string",
    "nRows": 0,
@@ -69,7 +69,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "b8ea6960-7686-45af-834b-3c0207ff6195",
+   "id": "19877f4f-dc63-463c-86a9-88a5ff4a0bac",
    "name": "UKA_TGC.ds2.Kinase Uniprot ID",
    "type": "string",
    "nRows": 0,
@@ -84,7 +84,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "96e28210-e97f-4769-b2c1-adfd9fd076bd",
+   "id": "1122ae28-2894-473c-bf4f-7f82113871c9",
    "name": "UKA_TGC.ds2.Kinase Group",
    "type": "string",
    "nRows": 0,
@@ -99,7 +99,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "690ebb24-9194-43e4-b4cd-38f47b4427ff",
+   "id": "82f41208-b973-4408-ac56-e5a66b29663a",
    "name": "UKA_TGC.ds2.Kinase Family",
    "type": "string",
    "nRows": 0,
@@ -114,7 +114,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "ab5aefcd-c717-437f-8fb4-f35c7ecde38a",
+   "id": "700d759d-4698-4183-9244-35cd7b6cb95c",
    "name": "UKA_TGC.ds2.Max Final score",
    "type": "double",
    "nRows": 0,
@@ -129,7 +129,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "e4cfc32c-79a6-4970-a9e7-e523841606ea",
+   "id": "45ff5c69-00da-417b-8989-c4641327167d",
    "name": "UKA_TGC.ds2.Mean Kinase Statistic",
    "type": "double",
    "nRows": 0,
@@ -144,7 +144,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "e6d1dce8-4558-495e-93e3-cc57544b5a39",
+   "id": "2d775c80-be8e-4e66-8e46-10e73e8f2989",
    "name": "UKA_TGC.ds2.Mean Significance Score",
    "type": "double",
    "nRows": 0,
@@ -159,7 +159,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "c0e9d4ab-a654-44ba-a53f-38c189403b97",
+   "id": "d7368cb4-8d58-4622-bcbb-eef3c48dbd1f",
    "name": "UKA_TGC.ds2.Mean Specificity Score",
    "type": "double",
    "nRows": 0,
@@ -174,7 +174,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "e9401743-992c-488f-8667-f122cc3c95f7",
+   "id": "2737b6d7-e1a4-48cf-b42a-13d893fc84d6",
    "name": "UKA_TGC.ds2.Mean peptide set size",
    "type": "double",
    "nRows": 0,
@@ -189,7 +189,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "2f2377cb-3873-4060-815d-084bebacca90",
+   "id": "a6ecf862-f3e3-4563-ae2b-0e2bba5dab99",
    "name": "UKA_TGC.ds2.Median Final score",
    "type": "double",
    "nRows": 0,
@@ -204,7 +204,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "85f52812-09e1-4d5d-83e1-d3b3a03bb60d",
+   "id": "540c13f5-f87a-4ea2-88b0-4e36707eb487",
    "name": "UKA_TGC.ds2.Median Kinase Change",
    "type": "double",
    "nRows": 0,
@@ -219,7 +219,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "769e06d9-52c0-424d-a331-35c1aa517c9d",
+   "id": "bdf0edd6-1b94-40a6-a2ed-49f3d3e1e6db",
    "name": "UKA_TGC.ds2.Median Kinase Statistic",
    "type": "double",
    "nRows": 0,
@@ -234,7 +234,7 @@
   },
   {
    "kind": "ColumnSchema",
-   "id": "a8ca30f9-2d14-44ca-969d-9dfeb2374bdf",
+   "id": "94084000-9709-4472-8240-3baf36b6ba0c",
    "name": "UKA_TGC.ds2.SD Kinase Statitistic",
    "type": "double",
    "nRows": 0,
@@ -248,9 +248,9 @@
    }
   }
  ],
- "dataDirectory": "data/5a/2e/5a2e963f78b20f84c2f04d7e313e68142b2d4ecda99c9f751d39cd82929173ea",
+ "dataDirectory": "data/b8/16/b816971b2c4f38224b3a3885c1af77f027d697e9bce3eff3d1805350652c1ef6",
  "relation": {
   "kind": "Relation",
-  "id": "a849399f-a2e3-4d7f-a466-b2b31a5d6a1a"
+  "id": "77590f99-4516-45bb-9d75-3e8bb10cdd38"
  }
 }

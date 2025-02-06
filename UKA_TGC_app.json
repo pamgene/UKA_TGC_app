@@ -1,6 +1,6 @@
 {
  "kind": "Workflow",
- "id": "1",
+ "id": "4",
  "isDeleted": false,
  "rev": "",
  "description": "UKA Two-Group Comparison",
@@ -79,20 +79,20 @@
   },
   {
    "kind": "Link",
-   "id": "fba32ca3-7119-47a7-97fc-3b6f53924ce1",
+   "id": "4275f479-0ce3-46c1-a516-0beab28e7372",
    "inputId": "ebda5081-aae4-45fc-b91b-f7b4b19d402a-i-0",
    "outputId": "c2be17d2-d1a7-4ff3-9813-afad67f2fb6d-o-0"
   },
   {
    "kind": "Link",
-   "id": "3c962194-6371-4ec7-b902-b80fabbc0d9d",
+   "id": "75589c14-f1db-407c-b06a-e8705ddc0b22",
    "inputId": "c2be17d2-d1a7-4ff3-9813-afad67f2fb6d-i-0",
-   "outputId": "2668938f-e7f1-4e2c-980b-7a4f49cb6bc7-o-0"
+   "outputId": "b895a5f6-2b3d-4306-9332-bfcf73d841f0-o-0"
   },
   {
    "kind": "Link",
-   "id": "a15774f1-a527-4e7d-ae41-d41be57f9494",
-   "inputId": "3711476e-b758-4f7a-9786-ac7fb796175e-i-0",
+   "id": "e4ba57f9-b85d-4d54-be2f-db328b6cb423",
+   "inputId": "1b09f5da-96a2-4400-80c8-b1fa1695c071-i-0",
    "outputId": "5098c7d5-e8da-4e09-abf1-9b51a268369e-o-0"
   }
  ],
@@ -413,7 +413,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "ee1af888-7da5-49f3-9db7-df9516b831e8"
+    "id": "def65340-6bf1-4fc3-af29-3c34ebbc5882"
    },
    "parentDataStepId": ""
   },
@@ -733,7 +733,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "4ab772b6-49df-43d0-b97c-0f3a5e10f5c5"
+    "id": "7a1a39ec-3778-40f4-8392-5419b7b90236"
    },
    "parentDataStepId": ""
   },
@@ -1046,8 +1046,8 @@
      "operatorRef": {
       "kind": "OperatorRef",
       "name": "UKA operator",
-      "version": "0.1.1",
-      "operatorId": "4",
+      "version": "0.2.4",
+      "operatorId": "5",
       "operatorKind": "ROperator",
       "propertyValues": [
        {
@@ -1094,6 +1094,11 @@
         "kind": "PropertyValue",
         "name": "PNETWeight",
         "value": "1"
+       },
+       {
+        "kind": "PropertyValue",
+        "name": "rmDualSpecKinases",
+        "value": "true"
        }
       ],
       "url": {
@@ -1147,7 +1152,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "12ff241c-9438-4a45-9161-3fd1ad3024c2"
+    "id": "d3582def-e216-4fb2-9e9b-65d2c6ec4503"
    },
    "parentDataStepId": ""
   },
@@ -1454,7 +1459,7 @@
       "kind": "OperatorRef",
       "name": "Export Table",
       "version": "0.2.6",
-      "operatorId": "2",
+      "operatorId": "1",
       "operatorKind": "ROperator",
       "propertyValues": [
        {
@@ -1649,7 +1654,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "470e4c95-76ac-4951-85ae-f08688b9bf13"
+    "id": "ed53dcf5-6074-4b80-b870-97691507172c"
    },
    "parentDataStepId": ""
   },
@@ -1947,7 +1952,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "0ceb975e-cfca-430b-b7e7-dd8e4d09f823"
+    "id": "cce47a62-7ebb-498d-81ab-4b4fe81ea9b6"
    },
    "parentDataStepId": ""
   },
@@ -2207,7 +2212,7 @@
       "kind": "OperatorRef",
       "name": "Volcano Plot",
       "version": "0.0.6",
-      "operatorId": "3",
+      "operatorId": "2",
       "operatorKind": "ShinyOperator",
       "propertyValues": [],
       "url": {
@@ -2287,7 +2292,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "33ab8534-3f9a-4808-ab1a-a6497c3511ff"
+    "id": "7e1b8e46-5166-48d8-b131-d346b7d1e845"
    },
    "parentDataStepId": ""
   },
@@ -2321,8 +2326,8 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 271.505,
-     "y": 95.5
+     "x": 269.505,
+     "y": 86.5
     }
    },
    "state": {
@@ -2641,13 +2646,13 @@
   },
   {
    "kind": "InStep",
-   "id": "2668938f-e7f1-4e2c-980b-7a4f49cb6bc7",
+   "id": "b895a5f6-2b3d-4306-9332-bfcf73d841f0",
    "groupId": "",
    "name": "Input",
    "inputs": [
     {
      "kind": "InputPort",
-     "id": "2668938f-e7f1-4e2c-980b-7a4f49cb6bc7-i-0",
+     "id": "b895a5f6-2b3d-4306-9332-bfcf73d841f0-i-0",
      "linkType": "any",
      "name": "from"
     }
@@ -2655,7 +2660,7 @@
    "outputs": [
     {
      "kind": "OutputPort",
-     "id": "2668938f-e7f1-4e2c-980b-7a4f49cb6bc7-o-0",
+     "id": "b895a5f6-2b3d-4306-9332-bfcf73d841f0-o-0",
      "linkType": "any",
      "name": "to"
     }
@@ -2669,8 +2674,8 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 277.505,
-     "y": 4.5
+     "x": 266.505,
+     "y": -20.5
     }
    },
    "state": {
@@ -2689,13 +2694,13 @@
   },
   {
    "kind": "OutStep",
-   "id": "3711476e-b758-4f7a-9786-ac7fb796175e",
+   "id": "1b09f5da-96a2-4400-80c8-b1fa1695c071",
    "groupId": "",
    "name": "Output",
    "inputs": [
     {
      "kind": "InputPort",
-     "id": "3711476e-b758-4f7a-9786-ac7fb796175e-i-0",
+     "id": "1b09f5da-96a2-4400-80c8-b1fa1695c071-i-0",
      "linkType": "any",
      "name": "from"
     }
@@ -2703,7 +2708,7 @@
    "outputs": [
     {
      "kind": "OutputPort",
-     "id": "3711476e-b758-4f7a-9786-ac7fb796175e-o-0",
+     "id": "1b09f5da-96a2-4400-80c8-b1fa1695c071-o-0",
      "linkType": "any",
      "name": "to"
     }
@@ -2717,8 +2722,8 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 422.5050000000001,
-     "y": 383.5
+     "x": 475.5050000000001,
+     "y": 430.5
     }
    },
    "state": {
@@ -2738,8 +2743,8 @@
  ],
  "offset": {
   "kind": "Point",
-  "x": 638.0,
-  "y": 13.0
+  "x": 627.0,
+  "y": 86.0
  },
  "scale": 1.0
 }
